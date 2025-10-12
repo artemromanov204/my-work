@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрационная форма</title>
+    <style>
+        /* Оформление формы */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 40px;
+        }
+
+        form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 400px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+
+        fieldset {
+            border: 2px solid #0078d7;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+
+        legend {
+            font-weight: bold;
+            color: #0078d7;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input, textarea, select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"], input[type="reset"] {
+            width: 48%;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
+        input[type="submit"] {
+            background-color: #0078d7;
+            color: white;
+            border: none;
+        }
+
+        input[type="reset"] {
+            background-color: #d9534f;
+            color: white;
+            border: none;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #005ea3;
+        }
+
+        input[type="reset"]:hover {
+            background-color: #b52b27;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Регистрационная форма пользователя</h2>
+
+    <!-- Начало формы -->
+    <form action="#" method="post">
+        
+        <!-- Группа полей: личная информация -->
+        <fieldset>
+            <legend>Личная информация</legend>
+
+            <!-- Поле для имени -->
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name" placeholder="Введите ваше имя">
+
+            <!-- Поле для электронной почты -->
+            <label for="email">Электронная почта:</label>
+            <input type="email" id="email" name="email" placeholder="Введите e-mail">
+
+            <!-- Поле для пароля -->
+            <label for="password">Пароль:</label>
+            <input type="password" id="password" name="password" placeholder="Введите пароль">
+        </fieldset>
+
+        <!-- Группа полей: дополнительная информация -->
+        <fieldset>
+            <legend>Дополнительная информация</legend>
+
+            <!-- Текстовое поле для комментариев -->
+            <label for="comment">Комментарий:</label>
+            <textarea id="comment" name="comment" rows="4" placeholder="Введите ваш комментарий"></textarea>
+
+            <!-- Выбор страны -->
+            <label for="country">Страна:</label>
+            <select id="country" name="country">
+                <option value="">-- Выберите страну --</option>
+                <option value="russia">Россия</option>
+                <option value="usa">США</option>
+                <option value="canada">Канада</option>
+            </select>
+        </fieldset>
+
+        <!-- Группа кнопок -->
+        <fieldset>
+            <legend>Действия</legend>
+
+            <!-- Кнопка отправки -->
+            <input type="submit" value="Отправить">
+
+            <!-- Кнопка сброса -->
+            <input type="reset" value="Сбросить">
+        </fieldset>
+
+    </form>
+    <!-- Конец формы -->
+
+</body>
+</html>
