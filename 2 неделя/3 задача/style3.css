@@ -1,0 +1,6 @@
+.block {
+            background-color: #e8e8e8;
+            padding: 15px;  /* внутренний отступ */
+            margin: 10px;   /* внешний отступ между блоками */
+            border: 2px solid #555; /* рамка вокруг блока */
+}

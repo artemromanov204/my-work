@@ -1,0 +1,88 @@
+ /* === ОБЩИЙ СТИЛЬ ДЛЯ СТРАНИЦЫ === */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5; /* светло-серый фон страницы */
+            margin: 20px;
+            line-height: 1.5;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        section {
+            background-color: #ffffff; /* белый фон для секций */
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 25px;
+        }
+
+        /* === ЗАДАНИЕ 1: ТЕКСТОВЫЕ СВОЙСТВА === */
+        h1.title {
+            color: darkblue;              /* color — задаёт цвет текста */
+            text-align: center;           /* text-align — выравнивает текст по центру */
+        }
+
+        h2.subtitle {
+            color: crimson;               /* другой цвет для демонстрации */
+        }
+
+        p.normal {
+            font-size: 16px;              /* font-size — размер шрифта */
+        }
+
+        p.big-text {
+            font-size: 20px;              /* увеличенный шрифт */
+        }
+
+        p.bold-text {
+            font-weight: bold;            /* font-weight — жирное начертание */
+        }
+
+        /* === ЗАДАНИЕ 2: ФОНОВЫЕ СВОЙСТВА === */
+        .container {
+            background-color: #f0f8ff;    /* background-color — цвет фона */
+            background-image: url('https://picsum.photos/500/250'); /* background-image — фоновое изображение */
+            background-size: cover;       /* заставляем изображение растягиваться под размер блока */
+            background-position: center;  /* центрируем изображение */
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+
+        /* === ЗАДАНИЕ 3: ОТСТУПЫ И РАМКИ === */
+        .block {
+            background-color: #e8e8e8;
+            padding: 15px;  /* padding — внутренние отступы (расстояние от рамки до текста) */
+            margin: 10px;   /* margin — внешние отступы между блоками */
+            border: 2px solid #555; /* border — рамка вокруг блока */
+            border-radius: 5px;
+        }
+
+        /* === ЗАДАНИЕ 4: РАЗМЕРЫ И ОТОБРАЖЕНИЕ === */
+        .size-box {
+            width: 200px;               /* width — ширина */
+            height: 100px;              /* height — высота */
+            border: 2px solid #007bff;
+            margin: 10px;
+            overflow: hidden;           /* overflow: hidden — скрывает лишний контент */
+        }
+
+        .scroll-box {
+            width: 200px;
+            height: 100px;
+            border: 2px dashed #ff8800;
+            margin: 10px;
+            overflow: scroll;           /* overflow: scroll — добавляет полосы прокрутки */
+        }
+
+        /* === ДОПОЛНИТЕЛЬНО: УЛУЧШЕНИЕ ВИДА === */
+        .task-title {
+            background-color: #007bff;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 6px;
+            display: inline-block;
+        }

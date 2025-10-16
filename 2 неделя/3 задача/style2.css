@@ -1,0 +1,9 @@
+.container {
+            background-color: #f0f8ff;
+            background-image: url('https://picsum.photos/400/200');
+            background-size: cover; /* растягивает картинку */
+            background-position: center;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+}
