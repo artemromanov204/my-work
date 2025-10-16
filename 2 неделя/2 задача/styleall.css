@@ -1,0 +1,37 @@
+/* Селектор по тегу (наименьший приоритет) 
+ Все элементы списка станут синими*/
+li {
+    color: blue;
+}
+
+/* Селектор по классу
+Все элементы с классом .class получат красный цвет текста. */
+.class {
+    color: red;
+}
+
+/* Селектор по ID */
+#name {
+    color: green;
+}
+
+/* Класс .bold делает текст жирным. */
+.bold {
+    font-weight: bold;
+}
+
+/* Конфликтующие стили для одного элемента */
+li.class {
+    color: purple;
+    font-weight: bold;
+}
+
+/* Ещё более конкретный селектор */
+ul li.class {
+    color: orange;
+}
+
+/* Меняет стиль текста в селекторе #name */
+#name {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

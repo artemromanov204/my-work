@@ -1,0 +1,19 @@
+p {
+    color: blue;
+}
+
+.class {
+    color: #0ee703;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#lorem {
+    color: red;
+}
+
+#name {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

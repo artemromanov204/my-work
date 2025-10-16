@@ -1,0 +1,25 @@
+/* Селектор по тегу (наименьший приоритет) */
+li {
+    color: blue;
+}
+
+/* Селектор по классу */
+.class {
+    color: red;
+}
+
+/* Селектор по ID */
+#name {
+    color: green;
+}
+
+/* Конфликтующие стили для одного элемента */
+li.class {
+    color: purple;
+    font-weight: bold;
+}
+
+/* Ещё более конкретный селектор */
+ul li.class {
+    color: orange;
+}
