@@ -1,0 +1,86 @@
+/* === Общие настройки страницы === */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #fafafa;
+  line-height: 1.5;
+  color: #222;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #34495e;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+  margin-top: 40px;
+}
+
+/* === Единицы измерения === */
+html {
+  font-size: 14px; /* базовая единица для rem */
+}
+
+.container {
+  font-size: 16px;
+  border: 2px solid #555;
+  width: 80%;
+  padding: 1em; /* 1em = 16px */
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.inner {
+  font-size: 1.5em; /* относительно родителя */
+  background-color: #f0f0f0;
+  padding: 1em;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.rem-example {
+  font-size: 2rem; /* относительно html */
+  margin: 15px 0;
+  color: #333;
+}
+
+.percent-box {
+  width: 60%;
+  background-color: lightblue;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+/* === Цветовые модели === */
+.hex-block {
+  background-color: #3498db; /* HEX */
+  color: #ffffff;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.rgb-block {
+  background-color: rgb(240, 240, 240); /* RGB */
+  color: rgb(200, 0, 0);
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.rgba-block {
+  background-color: rgba(0, 128, 0, 0.3); /* RGBA */
+  color: rgba(0, 0, 0, 0.8);
+  padding: 15px;
+  border: 1px solid green;
+  margin-top: 10px;
+  border-radius: 8px;
+}

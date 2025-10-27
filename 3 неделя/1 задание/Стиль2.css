@@ -1,0 +1,26 @@
+body {
+font-family: Arial, sans-serif;
+background-color: #f5f5f5;
+padding: 20px;
+}
+
+.hex-block {
+background-color: #3498db;
+color: #ffffff;
+padding: 15px;
+margin-bottom: 10px;
+}
+
+.rgb-block {
+background-color: rgb(230, 230, 230);
+color: rgb(200, 0, 0);
+padding: 15px;
+margin-bottom: 10px;
+}
+
+.rgba-block {
+background-color: rgba(0, 128, 0, 0.3);
+color: rgba(0, 0, 0, 0.8);
+padding: 15px;
+border: 1px solid green;
+}
