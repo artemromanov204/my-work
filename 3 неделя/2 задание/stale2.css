@@ -1,0 +1,11 @@
+/* Стиль первого элемента списка */
+ul li:first-child {
+    color: blue;
+    font-weight: bold;
+}
+
+/* Стиль последнего элемента списка */
+ul li:last-child {
+    color: red;
+    font-style: italic;
+}

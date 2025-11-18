@@ -1,0 +1,73 @@
+/* ===== Общие стили ===== */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h2 {
+    margin-top: 40px;
+}
+
+.example { 
+    border: 2px solid #d51626;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+/* ===== Задание 1: hover и focus ===== */
+button:hover { /* псевдокласс :hover — реагирует на наведение курсора мыши на элемент
+Здесь изменяем фон и цвет текста кнопки при наведении */
+    background-color: #54ba1a;
+    color: rgb(207, 29, 29);
+    cursor: pointer;
+}
+
+input:focus { /* псевдокласс :focus — реагирует на фокус ввода */
+    border: 2px solid #cc118e;
+    outline: none;
+}
+
+/* ===== Задание 2: first-child и last-child ===== */
+ul li:first-child { /*:first-child — применяет стиль к первому дочернему элементу родителя*/
+    color: rgb(36, 165, 17);
+    font-weight: bold;
+}
+
+ul li:last-child { /* :last-child — применяет стиль к последнему дочернему элементу родителя*/
+    color: rgb(157, 216, 18);
+    font-style: italic;
+}
+
+/* ===== Задание 3: комбинация псевдоклассов ===== */
+.block a:hover {/* :hover для ссылок — меняем цвет при наведении курсора*/
+    color: rgb(15, 217, 227);
+}
+
+.block p:nth-child(odd) { /*:nth-child(odd) — применяет стиль к нечетным дочерним элементам*/
+    background-color: #00f1b9;
+    padding: 4px;
+}
+
+.block p:first-child { /*:first-child — первый абзац в блоке становится жирным */
+    font-weight: bold;
+}
+
+.block p:last-child { /*:last-child — последний абзац в блоке становится курсивным*/
+    font-style: italic;
+}
+
+/* ===== Задание 4: комбинации ===== */
+.content-block p:first-child:hover { /*:first-child:hover — первый дочерний элемент блока и при наведении мыши
+Меняем фон и курсор*/
+    background-color: #68ff2c;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.content-block input:last-child:focus { /*:last-child:focus — последний дочерний элемент блока, когда на него установлен фокус*/
+    border: 2px solid #d80909;
+    background-color: #2cacbc;
+    outline: none;
+}

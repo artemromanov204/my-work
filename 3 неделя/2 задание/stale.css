@@ -1,0 +1,20 @@
+/* Стиль формы */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    gap: 10px;
+}
+
+/* Изменение границы input при фокусе */
+input:focus {
+    border: 2px solid #e27d4a;
+    outline: none;
+}
+
+/* Изменение фона кнопки при наведении */
+button:hover {
+    background-color: #d22727;
+    color: white;
+    cursor: pointer;
+}

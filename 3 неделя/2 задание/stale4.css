@@ -1,0 +1,13 @@
+/* 1. Первый дочерний элемент + hover */
+.content-block p:first-child:hover {
+    background-color: #ecd500;
+    cursor: pointer;
+    padding: 5px;
+}
+
+/* 2. Последний дочерний элемент + focus */
+.content-block input:last-child:focus {
+    border: 2px solid #00e6f6;
+    outline: none;
+    background-color: #ec005f;
+}

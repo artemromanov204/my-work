@@ -1,0 +1,20 @@
+/* Изменение цвета ссылок при наведении */
+.block a:hover {
+    color: rgb(247, 0, 243);
+    text-decoration: underline;
+}
+
+/* Стили для нечётных текстовых элементов внутри блока */
+.block p:nth-child(odd) {
+    background-color: #00f76b;
+    padding: 5px;
+}
+
+/* Дополнительно: можно выделить первый и последний элементы */
+.block p:first-child {
+    font-weight: bold;
+}
+
+.block p:last-child {
+    font-style: italic;
+}
