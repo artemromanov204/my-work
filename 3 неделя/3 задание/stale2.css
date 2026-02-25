@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 16px;
+}
+
+.demo {
+  border: 2px dashed #999;
+  padding: 12px;
+  margin-bottom: 18px;
+}
+
+h1 {
+  background: #ffecec;
+  margin: 0 0 8px 0;
+  padding: 8px;
+}
+
+p {
+  background: #ecffec;
+  margin: 0 0 8px 0;
+  padding: 8px;
+  display: inline; /* Преобразуем блочный элемент в линейный */
+}
+
+.box {
+  background: #ececff;
+  padding: 8px;
+  margin: 0 0 8px 0;
+}
+
+img.demo-img {
+  display: block; /* Преобразуем линейный элемент в блочный */
+}
+
+.inline-test {
+  border-top: 1px solid #ddd;
+  padding-top: 12px;
+}

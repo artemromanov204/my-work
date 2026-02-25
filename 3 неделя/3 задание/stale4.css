@@ -1,0 +1,95 @@
+/* ==============================
+   ОБЩИЕ СТИЛИ
+============================== */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: #2c3e50;
+}
+
+section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* ==============================
+   БЛОЧНЫЕ ЭЛЕМЕНТЫ
+============================== */
+
+.box {
+    background-color: #d0e6ff;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #3498db;
+}
+
+/* ==============================
+   ЛИНЕЙНЫЕ ЭЛЕМЕНТЫ
+============================== */
+
+.inline-demo span {
+    background-color: #ffe0b2;
+    padding: 5px;
+}
+
+.inline-demo img {
+    width: 60px;
+    vertical-align: middle;
+}
+
+/* ==============================
+   ПРЕОБРАЗОВАНИЕ display
+============================== */
+
+.block-to-inline {
+    display: inline;
+    background-color: #c8e6c9;
+    padding: 10px;
+    border: 2px solid #2ecc71;
+}
+
+.inline-to-block {
+    display: block;
+    background-color: #ffcdd2;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid #e74c3c;
+}
+
+/* ==============================
+   ВЛОЖЕННЫЕ ЭЛЕМЕНТЫ
+============================== */
+
+.container {
+    border: 2px dashed #7f8c8d;
+    padding: 15px;
+}
+
+.container p {
+    color: #34495e;
+}
+
+.container img {
+    display: block;
+    margin: 10px 0;
+    width: 100px;
+}
+
+.container a {
+    display: inline-block;
+    margin-top: 10px;
+    color: white;
+    background-color: #9b59b6;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}

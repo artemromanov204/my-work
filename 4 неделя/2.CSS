@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background-color: #141414;
+}
+
+header {
+    padding: 40px 50px 10px 50px;
+    background-color: #141414;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 160px;
+    height: 33px;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+}
+
+.menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.menu a:hover {
+    color: rgba(17, 141, 168, 1);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}  

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Финальная страница</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Подключение внешнего CSS -->
+    <link rel="stylesheet" href="stale4.css">
+</head>
+<body>
+
+    <h1>Блочные и линейные элементы в HTML</h1>
+
+    <!-- 1. БЛОЧНЫЕ И ЛИНЕЙНЫЕ ЭЛЕМЕНТЫ -->
+    <section>
+        <h2>1. Блочные и линейные элементы</h2>
+
+        <!-- 
+        Блочные элементы:
+        - Занимают всю ширину строки
+        - Начинаются с новой строки
+        - Можно задавать width, height, margin, padding
+        -->
+
+        <h3>Это заголовок &lt;h3&gt; (блочный элемент)</h3>
+        <p>Это абзац &lt;p&gt; — блочный элемент, который занимает всю ширину строки.</p>
+        <div class="box">Это контейнер &lt;div&gt; — тоже блочный элемент.</div>
+
+        <!-- 
+        Линейные элементы:
+        - Не начинают новую строку
+        - Занимают ширину содержимого
+        -->
+
+        <div class="inline-demo">
+            <strong>Линейные элементы в одной строке:</strong>
+            <span>Текст перед</span>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUcVQ0HPI49rnXUTI-4NFOzQ2vUmVMj2qG3g&s" alt="пример">
+            <span>и текст после</span>
+        </div>
+    </section>
+
+    <!-- 2. ПРЕОБРАЗОВАНИЕ -->
+    <section>
+        <h2>2. Преобразование элементов через display</h2>
+
+        <!-- 
+        display: block;
+        display: inline;
+        display: inline-block;
+        -->
+
+        <div class="block-to-inline">
+            Этот div стал линейным (display: inline)
+        </div>
+
+        <span class="inline-to-block">
+            Этот span стал блочным (display: block)
+        </span>
+    </section>
+
+    <!-- 3. ВЛОЖЕННЫЕ ЭЛЕМЕНТЫ -->
+    <section>
+        <h2>3. Работа с вложенными элементами</h2>
+
+        <!-- 
+        Родитель может управлять стилями дочерних элементов
+        -->
+
+        <div class="container">
+            <p>Это пример абзаца внутри контейнера.</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUcVQ0HPI49rnXUTI-4NFOzQ2vUmVMj2qG3g&s" alt="Пример изображения">
+            <a href="#">Это ссылка</a>
+        </div>
+    </section>
+
+</body>
+</html>
